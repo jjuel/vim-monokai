@@ -1,10 +1,11 @@
 " File:       monokai.vim
-" Maintainer: Crusoe Xia (crusoexia)
-" URL:        https://github.com/crusoexia/vim-monokai
+" Maintainer: Jordan Juel
+" URL:        https://github.com/jjuel/vim-monokai
 " License:    MIT
 "
 " The colour palette is from http://www.colourlovers.com/
 " The original code is from https://github.com/w0ng/vim-hybrid
+" Fork of https://github.com/cursoexia/vim-monokai
 
 " Initialisation
 " --------------
@@ -170,7 +171,7 @@ call s:h("Keyword",       { "fg": s:aqua })
 
 call s:h("PreProc",       { "fg": s:green })
 call s:h("Include",       { "fg": s:pink })
-call s:h("Define",        { "fg": s:pink })
+call s:h("Define",        { "fg": s:aqua })
 call s:h("Macro",         { "fg": s:green })
 call s:h("PreCondit",     { "fg": s:green })
                            
