@@ -213,8 +213,7 @@ call s:h("SyntasticWarningSign",    { "fg": s:lightblack, "bg": s:orange })
 " ------------------
 
 " Python 
-call s:h("pythonLabel",               {"fg": s:aqua})
-call s:h("pythonDefine",              {"fg": s:aqua})
+call s:h("pythonStatement",         {"fg": s:aqua})
 
 " Java properties
 call s:h("jpropertiesIdentifier",   { "fg": s:pink })
